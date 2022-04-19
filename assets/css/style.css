@@ -1,0 +1,52 @@
+body{
+  background-image:linear-gradient(#ffffff, rgb(255, 255, 255));
+  color:rgb(0, 0, 0)
+}
+.centro {
+  text-align: center;
+  font-family: Nunito, sans-serif;
+}
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+#menu li{
+  display: inline;
+  padding: 15px;
+}
+
+#menu li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+#menu li a:hover{
+  color:#EF454A
+}
+.p-30{
+  padding:30;
+}
+.br-2{
+  border-radius: 20%;
+}
+.container2{
+text-align: center;
+font-family: Nunito, sans-serif;
+}
+form label, form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 0px;
+}
+.input-padrao {
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 30%;
+}
+fieldset{
+  padding: 10px 300px;
+  border-radius: 30px;
+  margin: 20px 200px;
+}
