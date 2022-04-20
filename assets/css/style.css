@@ -2,14 +2,26 @@ body{
   background-image:linear-gradient(#ffffff, rgb(255, 255, 255));
   color:rgb(0, 0, 0)
 }
-.centro {
-  text-align: center;
-  font-family: Nunito, sans-serif;
+.mainDiv{
+  background-color: #EF454A;
+  display: flex;
+  align-items: center;
+  margin: 0% 14%;
 }
 .container{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  text-align: center;
+  font-family: Nunito, sans-serif;
+}
+.centro {
+  font-family: Nunito, sans-serif;
+}
+.conteudo{
+  font-family: Nunito, sans-serif;
+  text-align: justify;
+  margin: 0px 30px;
 }
 #menu li{
   display: inline;
