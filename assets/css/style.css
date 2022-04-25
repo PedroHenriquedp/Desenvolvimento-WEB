@@ -1,3 +1,7 @@
+:root{
+--shuiro: #EF454A;
+}
+
 body{
   background-image:linear-gradient(#ffffff, rgb(255, 255, 255));
   color:rgb(0, 0, 0)
@@ -17,6 +21,7 @@ body{
 }
 .centro {
   font-family: Nunito, sans-serif;
+  text-align: center;
 }
 .conteudo{
   font-family: Nunito, sans-serif;
@@ -41,7 +46,8 @@ body{
   padding:30;
 }
 .br-2{
-  border-radius: 20%;
+  object-fit: cover;
+  object-position: center;
 }
 .container2{
 text-align: center;
