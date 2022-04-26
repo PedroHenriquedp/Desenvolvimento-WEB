@@ -1,5 +1,6 @@
 :root{
 --shuiro: #EF454A;
+
 }
 
 body{
@@ -7,7 +8,7 @@ body{
   color:rgb(0, 0, 0)
 }
 .mainDiv{
-  background-color: #EF454A;
+  background-color: var(--shuiro);
   display: flex;
   align-items: center;
   margin: 0% 14%;
@@ -40,7 +41,7 @@ body{
 }
 
 #menu li a:hover{
-  color:#EF454A
+  color:var(--shuiro);
 }
 .p-30{
   padding:30;
