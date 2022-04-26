@@ -1,0 +1,71 @@
+:root{
+--shuiro: #EF454A;
+
+}
+
+body{
+  background-image:linear-gradient(#ffffff, rgb(255, 255, 255));
+  color:rgb(0, 0, 0)
+}
+.mainDiv{
+  background-color: var(--shuiro);
+  display: flex;
+  align-items: center;
+  margin: 0% 14%;
+}
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  font-family: Nunito, sans-serif;
+}
+.centro {
+  font-family: Nunito, sans-serif;
+  text-align: center;
+}
+.conteudo{
+  font-family: Nunito, sans-serif;
+  text-align: justify;
+  margin: 0px 30px;
+}
+#menu li{
+  display: inline;
+  padding: 15px;
+}
+
+#menu li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+#menu li a:hover{
+  color:var(--shuiro);
+}
+.p-30{
+  padding:30;
+}
+.br-2{
+  object-fit: cover;
+  object-position: center;
+}
+.container2{
+text-align: center;
+font-family: Nunito, sans-serif;
+}
+form label, form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 0px;
+}
+.input-padrao {
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 30%;
+}
+fieldset{
+  padding: 10px 300px;
+  border-radius: 30px;
+  margin: 20px 200px;
+}
